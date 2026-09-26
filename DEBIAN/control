@@ -1,4 +1,4 @@
-Package: iwlwifi-resume
+Package: iwlwifi-resume-systemd
 Version: 1.0.0
 Architecture: all
 Maintainer: rimomin
