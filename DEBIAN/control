@@ -1,0 +1,12 @@
+Package: iwlwifi-resume
+Version: 1.0.0
+Architecture: all
+Maintainer: rimomin
+Installed-Size: 287
+Depends: systemd
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/rimomin/iwlwifi-resume
+Description: This systemd service reload Intel Wireless card module iwlwifi
+ after OS resume from suspend because Wi-Fi is desabled after resume if not. 

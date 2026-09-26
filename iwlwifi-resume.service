@@ -1,0 +1,13 @@
+[Unit]
+Description=Intel Wireless card module relaoder after OS resume from suspend
+After=suspend.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecCondition=sh -c 'lsmod | grep "^iwlwifi "'
+ExecStart=modprobe -r iwlwifi
+ExecStart=modprobe iwlwifi
+
+[Install]
+WantedBy=suspend.target

@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    systemd daemon-reload
+    systemd enable iwlwifi-resume
+fi
+
+exit 0
