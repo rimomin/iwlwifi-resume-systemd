@@ -2,7 +2,7 @@ Package: iwlwifi-resume-systemd
 Version: 1.0.0
 Architecture: all
 Maintainer: rimomin
-Installed-Size: 287
+Installed-Size: 2112
 Depends: systemd
 Section: admin
 Priority: optional
