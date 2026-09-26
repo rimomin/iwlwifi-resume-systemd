@@ -7,6 +7,6 @@ Depends: systemd
 Section: admin
 Priority: optional
 Multi-Arch: foreign
-Homepage: https://github.com/rimomin/iwlwifi-resume
+Homepage: https://github.com/rimomin/iwlwifi-resume-systemd
 Description: This systemd service reload Intel Wireless card module iwlwifi
  after OS resume from suspend because Wi-Fi is desabled after resume if not. 
