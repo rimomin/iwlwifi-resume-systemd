@@ -15,7 +15,7 @@ cp iwlwifi-resume.service $WORK_DIR/usr/lib/systemd/system/
 
 mkdir -p $WORK_DIR/usr/share/doc/$NAME
 cp copyright $WORK_DIR/usr/share/doc/$NAME/
-cat LISENCE >> $WORK_DIR/usr/share/doc/$NAME/copyright
+cat LICENSE >> $WORK_DIR/usr/share/doc/$NAME/copyright
 cp README.md $WORK_DIR/usr/share/doc/$NAME/
 
 cd deb
