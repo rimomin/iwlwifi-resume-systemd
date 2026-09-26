@@ -12,3 +12,8 @@ Execute follow command when iwlwifi-resume-systemd_1.0.0_all.deb is in deb direc
 cd deb/
 sudo dpkg -i iwlwifi-resume-systemd_1.0.0_all.deb
 ```
+## How to remove iwlwifi-resume-systemd that is installed from deb package
+Execute follow command.
+```
+sudo dpkg -r iwlwifi-resume-systemd
+```
