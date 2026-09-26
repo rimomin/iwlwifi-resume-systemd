@@ -2,8 +2,8 @@
 set -e
 
 if [ "$1" = "configure" ]; then
-    systemd daemon-reload
-    systemd enable iwlwifi-resume
+    systemctl daemon-reload
+    systemctl enable iwlwifi-resume
 fi
 
 exit 0
