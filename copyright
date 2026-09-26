@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: iwlwifi-resume
+Upstream-Name: iwlwifi-resume-systemd
 Upstream-Contact: rimomin
-Source: https://github.com/rimomin/iwlwifi-resume
+Source: https://github.com/rimomin/iwlwifi-resume-systemd
 
 Files: *
 Copyright: 2026, rimomin
